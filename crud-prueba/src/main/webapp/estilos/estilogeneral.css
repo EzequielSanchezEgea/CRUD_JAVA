@@ -1,0 +1,71 @@
+@charset "UTF-8";
+    .error {
+      color: red;
+      font-size: 15px;
+    }
+     .exito{
+      color: green;
+      font-size: 15px;
+     }
+    h1{
+    text-align: center;
+    display: flex;
+    flex: 100%;
+    background-color: #57abc5;
+    color: white;
+    justify-content: center;
+}
+
+.cont{
+	border-collapse:collapse;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+   display: inline;
+   text-align:center;
+
+}
+.cont button[type="submit"], .cont button[onclick] {
+
+  margin: 10px;}
+  
+table{
+	border-collapse:collapse;
+	
+}
+    td{
+    border-collapse:collapse;
+    
+    }
+    tr{
+    border: 0em;
+    }
+input, button{
+padding:2%;
+}
+
+h3{
+	text-align: center;
+    display: flex;
+    flex: 100%;
+    background-color: #57abc5;
+    color: white;
+    justify-content: center;
+}
+
+#form{
+	position:relative;
+	margin-left:23%;
+	justify-content:center;
+}
+
+.exito{
+	color: green;
+    font-size: 15px;
+    text-align: center;
+    transform: translateX(-10%);
+}
+
+
+    
